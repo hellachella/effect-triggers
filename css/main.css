@@ -32,10 +32,18 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 200px;
-
   background-color: limegreen;
   opacity: 0;
 }
+
+.showbox {
+  height: 100px;
+  top: calc(50% - 50px);
+  width: 200px;
+  background-color: limegreen;
+  opacity: 100;
+}
+
 
 .btn-show-hide {
   opactiy: 100%;
