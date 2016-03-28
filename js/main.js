@@ -25,5 +25,8 @@ $btnColEx.on('click', function () {
 });
 
 // bounce here
+$btnBounce.on('click', function () {
+  $circle.toggleClass('bounce');
+});
 
 //list append here

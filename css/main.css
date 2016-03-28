@@ -89,6 +89,16 @@ div {
 .circle {
   height: 100px;
   top: calc(50% - 50px);
+  right: -100px;
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.bounce {
+  height: 100px;
+  top: calc(50% - 50px);
+  right: 100px;
   width: 100px;
   background-color: orange;
   border-radius: 50%;
@@ -125,5 +135,10 @@ div {
 @keyframes bounce {
   0% {
     top: 10px;
+    left: -100px;
+  }
+  100%{
+    top: 0;
+    left: 100px;
   }
 }
