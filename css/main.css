@@ -44,9 +44,8 @@ div {
   opacity: 100;
 }
 
-
 .btn-show-hide {
-  opacity: 100%;
+  opacity: 100;
 }
 
 .diamond {
@@ -60,7 +59,7 @@ div {
   transition: all .2s linear;
 }
 
-.btn-slide{
+.btn-slide {
   right: 50px;
 }
 
@@ -71,17 +70,15 @@ div {
   width: 250px;
   background-color: yellow;
   transform: translateY(-50%);
+  transition: all .2s linear;
 
   color: darkgoldenrod;
   text-align: center;
 }
 
-/*test below*/
 .collapse-panel {
-  max-height: 0em;
+  max-height: 0;
   transition: all .2s linear;
-
-
 }
 
 .panel h2 {
