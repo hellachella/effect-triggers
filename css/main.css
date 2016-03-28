@@ -90,10 +90,11 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
   background-color: orange;
   border-radius: 50%;
+  animation: bounce .5s linear;
 }
+
 
 .list {
   bottom: 1em;
@@ -121,3 +122,8 @@ div {
   color: mediumpurple;
 }
 
+@keyframes bounce {
+  0% {
+    top: 10px;
+  }
+}

@@ -9,6 +9,9 @@ var $diamond = $('.diamond');
 var $btnColEx = $('.btn-collapse-expand');
 var $panel = $('.panel');
 
+var $btnBounce = ('.btn-bounce');
+var $circle = ('.circle');
+
 $btnShowHide.on('click', function () {
   $box.toggleClass('showbox');
 });
@@ -17,8 +20,10 @@ $btnMove.on('click', function () {
   $diamond.toggleClass('btn-slide');
 });
 
-// do the collapse thingy test.
 $btnColEx.on('click', function () {
   $panel.toggleClass('collapse-panel');
-
 });
+
+// bounce here
+
+//list append here
