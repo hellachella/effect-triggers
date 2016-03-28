@@ -37,6 +37,10 @@ div {
   opacity: 0;
 }
 
+.btn-show-hide {
+  opactiy: 100%;
+}
+
 .diamond {
   height: 80px;
   right: -100px;
@@ -99,3 +103,4 @@ div {
 
   color: mediumpurple;
 }
+
