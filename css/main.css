@@ -97,12 +97,12 @@ div {
 
 .bounce {
   height: 100px;
+  right: -100px;
   top: calc(50% - 50px);
-  right: 100px;
   width: 100px;
   background-color: orange;
   border-radius: 50%;
-  animation: bounce .5s linear;
+  animation: bounce 1s both;
 }
 
 
@@ -134,11 +134,30 @@ div {
 
 @keyframes bounce {
   0% {
-    top: 10px;
-    left: -100px;
+    right: -100px;
+    top: 40px;
   }
-  100%{
-    top: 0;
-    left: 100px;
+  25% {
+    top: 10px;
+  }
+
+  40%{
+    top: 40px;
+  }
+
+  60% {
+    top: 10px;
+  }
+
+  70%{
+    top: 30px;
+  }
+
+  95%{
+    top: 10px;
+  }
+  100% {
+    right: 150px;
+    top: 40px;
   }
 }

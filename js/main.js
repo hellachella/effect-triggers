@@ -9,8 +9,8 @@ var $diamond = $('.diamond');
 var $btnColEx = $('.btn-collapse-expand');
 var $panel = $('.panel');
 
-var $btnBounce = ('.btn-bounce');
-var $circle = ('.circle');
+var $btnBounce = $('.btn-bounce');
+var $circle = $('.circle');
 
 $btnShowHide.on('click', function () {
   $box.toggleClass('showbox');
