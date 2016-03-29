@@ -34,6 +34,7 @@ div {
   width: 200px;
   background-color: limegreen;
   opacity: 0;
+  transition: all .5s;
 }
 
 .showbox {
@@ -42,6 +43,7 @@ div {
   width: 200px;
   background-color: limegreen;
   opacity: 100;
+  transition: all .5s;
 }
 
 .btn-show-hide {
@@ -105,7 +107,6 @@ div {
   animation: bounce 1s both;
 }
 
-
 .list {
   bottom: 1em;
   margin: 0;
@@ -130,18 +131,33 @@ div {
   overflow: hidden;
 
   color: mediumpurple;
+  animation: expand .2s forwards ease;
+}
+
+@keyframes expand {
+
+  0% {
+    max-height: 0;
+  }
+
+  100% {
+
+    max-height: 1.5em;
+  }
 }
 
 @keyframes bounce {
+
   0% {
     right: -100px;
     top: 40px;
   }
+
   25% {
     top: 10px;
   }
 
-  40%{
+  40% {
     top: 40px;
   }
 
@@ -149,13 +165,14 @@ div {
     top: 10px;
   }
 
-  70%{
+  70% {
     top: 30px;
   }
 
-  95%{
+  95% {
     top: 10px;
   }
+
   100% {
     right: 150px;
     top: 40px;
